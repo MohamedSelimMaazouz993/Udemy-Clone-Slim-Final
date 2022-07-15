@@ -26,11 +26,7 @@ root.render(
     <Route path='/signin' element={<Signin />} />
     <Route
       path='/account'
-      element={
-        
-          <Account />
-        
-      }
+      element={ <Account />  }
       />
   </Routes>
   </BrowserRouter>  
