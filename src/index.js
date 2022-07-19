@@ -4,16 +4,17 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import { AuthContextProvider } from './components/signin/context/AuthContext';
-
 import Account from './components/signin/pages/Account';
 import Signin from './components/signin/pages/Signin';
-
-
-
-
-
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Apprentisage from './components/Navbar/Apprentisage'
+import Like from './components/Navbar/Like'
+import Cart from './components/Navbar/Cart'
+import UdemyB from './components/Navbar/UdemyB'
+import Enseigner from './components/Navbar/Enseigner'
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,11 @@ root.render(
   <Routes>
     <Route path='/' element={<App/>} />
     <Route path='/signin' element={<Signin />} />
+    <Route path='/UdemyB' element={<UdemyB/>} />
+    <Route path='/Enseigner' element={<Enseigner />} />
+    <Route path='/Apprentisage' element={<Apprentisage />} />
+    <Route path='/Like' element={< Like />} />
+    <Route path='/Cart' element={<Cart />} />
     <Route
       path='/account'
       element={ <Account />  }

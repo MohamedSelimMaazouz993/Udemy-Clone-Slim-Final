@@ -54,10 +54,10 @@ function Header() {
       <Nav.Link href="/UdemyB">Udemy Business</Nav.Link>
       <Nav.Link href="/Enseigner">Enseigner Sur Udemy</Nav.Link>
       <Nav.Link href="/Apprentissage">Mon Apprentissage</Nav.Link>
-      <Nav.Link href="pricing">
+      <Nav.Link href="Like">
       <i class="fa-regular fa-heart"></i>
         </Nav.Link>
-      <Nav.Link  href="/cart"> 
+      <Nav.Link  href="/Cart"> 
       <i className='fas fa-shopping-cart'></i> </Nav.Link>
       <Nav.Link  href="/notifications"> 
       <i className='fas fa-bell'></i></Nav.Link>
