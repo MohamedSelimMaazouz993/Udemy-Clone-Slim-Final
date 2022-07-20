@@ -30,10 +30,15 @@
 .btn-secondary {
   --bs-btn-bg: #141619;
   float: right;
-  width: 50;
+  width: 100;
+  bottom: 20px;
 }
 .form-control {
-  width: 200;
+  width: 100;
+}
+
+body {
+  margin: 0;
 }
 
 @keyframes App-logo-spin {
