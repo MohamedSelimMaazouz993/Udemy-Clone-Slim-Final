@@ -27,6 +27,14 @@
 .App-link {
   color: #61dafb;
 }
+.btn-secondary {
+  --bs-btn-bg: #141619;
+  float: right;
+  width: 50;
+}
+.form-control {
+  width: 200;
+}
 
 @keyframes App-logo-spin {
   from {

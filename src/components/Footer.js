@@ -10,8 +10,8 @@ function Footer() {
       
       <div className='Enseigner' >
         <div className='text-start'>
-        <h5>Ayez un impact global</h5> 
-        <h6>Créez un cours vidéo en ligne, inspirez les participants du monde et gagnez de l'argent            <button type="button" class="btn btn-secondary btn-lg" href ="/Enseigner">Enseigner Sur Udemy</button></h6> 
+        <h5>Ayez un impact global  <button type="button" class="btn btn-secondary btn-lg"  href ="/Enseigner">Enseigner Sur Udemy     </button>     </h5> 
+        <h6>Créez un cours vidéo en ligne, inspirez les participants du monde et gagnez de l'argent              </h6> 
         
         </div>
       </div>
