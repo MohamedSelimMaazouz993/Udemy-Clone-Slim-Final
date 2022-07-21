@@ -24,13 +24,21 @@ import Header from '../Header';
 <div className='text-start'>
 
  <h3>Trusted By :</h3>
-         <img src='images/partners/nasdaq-light.svg'  width="100" height="45" hspace="20" alt=""           /> 
-        <img src='images/partners/volkswagen-light.svg'  width="100" height="45"  hspace="20" alt=""           /> 
+       <div>
+        <img src='images/Udemyb/gofundme.png.webp'  width="100" height="45" hspace="20" alt=""           /> 
         <img src='images/partners/box-light.svg'  width="100" height="45" hspace="20"  alt=""           /> 
-        <img src='images/partners/netapp-light.svg'  width="100" height="45" hspace="20" alt=""           /> 
-        <img src='images/partners/eventbrite-light.svg'  width="100" height="45" hspace="20" alt=""           />     
+        <img src='images/Udemyb/Fender.png.webp'  width="100" height="45" hspace="20" alt=""           /> 
+        </div> 
+        <div>
+        <img src='images/Udemyb/Aflac-1.png.webp'  width="100" height="45" hspace="20" alt=""           /> 
+        <img src='images/partners/volkswagen-light.svg'  width="100" height="45"  hspace="20" alt=""           /> 
+        <img src='images/Udemyb/Tata.TCS.png'  width="100" height="45" hspace="20" alt=""           />     
+       </div>
+     
+      </div>  
+
 <div className='text-end'>
-<form class="needs-validation" novalidate>
+ <form class="needs-validation" novalidate>
   <div class="form-row">
     <div class="col-md-4 mb-3">
       <label for="validationTooltip01">First name</label>
@@ -83,10 +91,8 @@ import Header from '../Header';
     </div>
   </div>
   <button class="btn btn-primary" type="submit">Submit form</button>
-</form>
-      </div>  
-     
-      </div>  
+ </form>
+</div>  
 
 
 <Footer/>
