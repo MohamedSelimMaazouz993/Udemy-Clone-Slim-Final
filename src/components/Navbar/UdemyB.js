@@ -7,37 +7,39 @@ import Header from '../Header';
 <Header/> 
 
 
+<div class="parent">
+
+<div className='left'>
 <h1>Get your demo</h1>
 
 <h6>See why leading organizations choose Udemy Business </h6>
 <h6>as their destination for employee learning.
  In your demo, learn more about:</h6> 
 
-  <h6> - Unlimited access to 16,000+ top courses selected from Udemy.com – anytime, on any device </h6> 
+       <h6> - Unlimited access to 16,000+ top courses selected from Udemy.com – anytime, on any device </h6> 
    
-  <h6> - Fresh content taught by global instructors  </h6> 
-  <h6>- Actionable learning insights and admin functionality</h6> 
+       <h6> - Fresh content taught by global instructors  </h6> 
+       <h6>- Actionable learning insights and admin functionality</h6> 
    
 
 
 
-<div className='text-start'>
-
- <h3>Trusted By :</h3>
-       <div>
-        <img src='images/Udemyb/gofundme.png.webp'  width="100" height="45" hspace="20" alt=""           /> 
-        <img src='images/partners/box-light.svg'  width="100" height="45" hspace="20"  alt=""           /> 
-        <img src='images/Udemyb/Fender.png.webp'  width="100" height="45" hspace="20" alt=""           /> 
-        </div> 
-        <div>
-        <img src='images/Udemyb/Aflac-1.png.webp'  width="100" height="45" hspace="20" alt=""           /> 
-        <img src='images/partners/volkswagen-light.svg'  width="100" height="45"  hspace="20" alt=""           /> 
-        <img src='images/Udemyb/Tata.TCS.png'  width="100" height="45" hspace="20" alt=""           />     
+       <h3>Trusted By :</h3>
+       <div className='Top'>
+        <img src='images/Udemyb/gofundme.png.webp'  width="100" height="45" hspace="30" alt=""           /> 
+        <img src='images/partners/box-light.svg'  width="100" height="45" hspace="30"  alt=""           /> 
+        <img src='images/Udemyb/Fender.png.webp'  width="100" height="45" hspace="30" alt=""           /> 
+        </div>
+        <div className='Bottom'>
+        <img src='images/Udemyb/Aflac-1.png.webp'  width="100" height="45" hspace="30" alt=""           /> 
+        <img src='images/partners/volkswagen-light.svg'  width="100" height="45"  hspace="30" alt=""           /> 
+        <img src='images/Udemyb/Tata.TCS.png'  width="100" height="45" hspace="30" alt=""           />     
        </div>
      
       </div>  
 
-<div className='text-end'>
+
+<div className='right'>
  <form class="needs-validation" novalidate>
   <div class="form-row">
     <div class="col-md-4 mb-3">
@@ -58,7 +60,7 @@ import Header from '../Header';
       <label for="validationTooltipUsername">Username</label>
       <div class="input-group">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+          
         </div>
         <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required/>
         <div class="invalid-tooltip">
@@ -94,6 +96,7 @@ import Header from '../Header';
  </form>
 </div>  
 
+</div>
 
 <Footer/>
 </>
