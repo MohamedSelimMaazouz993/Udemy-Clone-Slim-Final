@@ -141,9 +141,9 @@ function Footer() {
 
       </MDBContainer>
       
-      <div className='logo and Copyright' >
-        <div className='text-start'><img src='/logo-udemy.svg'  width="100" height="35" hspace="20"  alt=""           /> </div>
-        <div className='text-end'>© 2022 Udemy, Inc.</div>
+      <div className='lac' >
+        <div className='logo'><img src='/logo-udemy.svg'  width="100" height="35" hspace="20"  alt=""           /> </div>
+        <div className='copyright'>© 2022 Udemy, Inc.</div>
       
       
       </div>

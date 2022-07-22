@@ -10,7 +10,10 @@ function Header() {
     <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
   <Container>
   <Nav className='ml-auto'>
-     <img src='/logo-udemy.svg'  width="100" height="45"  alt=""           /> 
+     <div className='logo1'>
+     <img src='/logo-udemy.svg'  width="100" height="45"  alt=""  />
+      </div>
+      
      
       <NavDropdown title="Categories" id="collasible-nav-dropdown">
         
