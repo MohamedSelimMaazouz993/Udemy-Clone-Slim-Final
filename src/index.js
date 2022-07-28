@@ -27,7 +27,7 @@ root.render(
     <Route path='/signin' element={<Signin />} />
     <Route path='/UdemyB' element={<UdemyB/>} />
     <Route path='/Enseigner' element={<Enseigner />} />
-    <Route path='/Apprentisage' element={<Apprentisage />} />
+    <Route path='/Apprentisage' element={<Apprentisage/>} />
     <Route path='/Like' element={< Like />} />
     <Route path='/Cart' element={<Cart />} />
     <Route

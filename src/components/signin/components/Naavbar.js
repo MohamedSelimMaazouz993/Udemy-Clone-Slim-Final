@@ -1,25 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { UserAuth } from '../context/AuthContext';
 import {Navbar,Nav,Container,NavDropdown,Form,FormControl,Button} from 'react-bootstrap'
-import Footer from '../../Footer';
-import Promotion from '../../Promotion';
-import Frontend from '../../dev/Frontend';
-import Recommandation from '../../Recommandation';
 
-const Account = () => {
-  const { logOut, user } = UserAuth();
+
+
+
+
+
+const Naavbar = () => {
+  const { user, logOut } = UserAuth();
 
   const handleSignOut = async () => {
     try {
-      await logOut();
+      await logOut()
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
-  };
+  }
 
   return (
-    <>
-    <header>
+     <header>
      <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
      <Container>
      <Nav className='left-navbar'>
@@ -65,7 +66,7 @@ const Account = () => {
 
  
                 
-      <Nav className='right-navbar2'  >
+      <Nav className='right-navbar'  >
     
       <Nav.Link href="/UdemyB">Udemy Business</Nav.Link>
       <Nav.Link href="/Enseigner">Enseigner Sur Udemy</Nav.Link>
@@ -77,32 +78,24 @@ const Account = () => {
       <i className='fas fa-shopping-cart'></i> </Nav.Link>
       <Nav.Link  href="/notifications"> 
       <i className='fas fa-bell'></i></Nav.Link>
-    <div className='w-[300px] m-auto'>
-      <h6 className='text-center text-2xl font-bold pt-12'>Welcome, {user?.displayName}</h6>
       
-      <button onClick={handleSignOut} className='border py-2 px-5 mt-10'>
-        Logout
-      </button>
+    <div className='flex justify-between bg-gray-200 w-full p-4'>
       
+      {user?.displayName ? (
+        <button onClick={handleSignOut}>Logout</button>
+      ) : (
+        <Link to='/signin'>Sign in</Link>
+      )}
     </div>
     </Nav>
    </Container>
    </Navbar>
-    </header>
   
 
-<div className='sam'>
-      <Container>
-      <Promotion/>
-      <Frontend/>
-      <Container>
-      <Recommandation/>
-      </Container>
-    </Container>  
-    <Footer/>
-    </div>
-    </>
+    </header>
+
+
   );
 };
 
-export default Account;
+export default Naavbar;

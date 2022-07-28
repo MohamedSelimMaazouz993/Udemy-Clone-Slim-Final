@@ -1,8 +1,13 @@
 import React from 'react'
-import Header from '../Header';
+import Footer from '../Footer';
+import Naavbar from '../signin/components/Naavbar';
  function Apprentisage() {
   return (
-    <Header/>
+    <>
+    <Naavbar/>
+    <div></div>
+    <Footer/>
+    </>
   )
 }
 export default  Apprentisage ;
