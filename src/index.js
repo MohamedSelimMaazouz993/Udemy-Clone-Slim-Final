@@ -8,7 +8,7 @@ import Account from './components/signin/pages/Account';
 import Signin from './components/signin/pages/Signin';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Apprentisage from './components/Navbar/Apprentisage'
+import Apprentissage from './components/Navbar/Apprentissage';
 import Like from './components/Navbar/Like'
 import Cart from './components/Navbar/Cart'
 import UdemyB from './components/Navbar/UdemyB'
@@ -27,7 +27,7 @@ root.render(
     <Route path='/signin' element={<Signin />} />
     <Route path='/UdemyB' element={<UdemyB/>} />
     <Route path='/Enseigner' element={<Enseigner />} />
-    <Route path='/Apprentisage' element={<Apprentisage/>} />
+    <Route path='/Apprentissage' element={<Apprentissage/>} />
     <Route path='/Like' element={< Like />} />
     <Route path='/Cart' element={<Cart />} />
     <Route
