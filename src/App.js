@@ -9,7 +9,6 @@ import Navbar from './components/signin/components/Naavbar';
 
 
 
-
 const App = () => {
   return (
     <>    
