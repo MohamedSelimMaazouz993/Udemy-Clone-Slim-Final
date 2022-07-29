@@ -88,7 +88,7 @@ div.parent{
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin-top: 5px;
   margin-bottom: 1.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -161,6 +161,16 @@ div.right-navbar2.navbar-nav {
   margin-top: 2%;
 }
 
+div.left2{
+  margin-top: -1%;
+  margin-left: 3%;
+  margin-right: 0%;
+  margin-bottom: 2%;
+  width: 50%;
+  
+  
+  
+}
 
 @keyframes App-logo-spin {
   from {

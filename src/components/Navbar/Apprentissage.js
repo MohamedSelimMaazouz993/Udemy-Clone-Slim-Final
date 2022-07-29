@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 import Naavbar from '../signin/components/Naavbar';
  function Apprentisage() {
   return (
@@ -24,7 +25,7 @@ import Naavbar from '../signin/components/Naavbar';
                     <div class="progress">
   <div class="progress-bar" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
 </div>
-
+<Link to='/frontcourse'>View Course</Link>
 
         </div>
       </div>
@@ -44,6 +45,7 @@ import Naavbar from '../signin/components/Naavbar';
         <div class="progress">
         <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
 </div>
+        <Link to='/angularcourse'>View Course</Link>
         </div>
       </div>
       <div class="card">
@@ -62,6 +64,7 @@ import Naavbar from '../signin/components/Naavbar';
                     <div class="progress">
         <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
 </div>
+<Link to='/reactcourse'>View Course</Link>
         </div>
       </div>
     </div> 

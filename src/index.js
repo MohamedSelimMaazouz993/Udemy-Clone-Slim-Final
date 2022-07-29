@@ -13,7 +13,9 @@ import Like from './components/Navbar/Like'
 import Cart from './components/Navbar/Cart'
 import UdemyB from './components/Navbar/UdemyB'
 import Enseigner from './components/Navbar/Enseigner'
-
+import Angularcourse from './components/courses/Angularcourse';
+import Frontcourse from './components/courses/Frontcourse';
+import Reactcourse from './components/courses/Reactcourse';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,6 +32,9 @@ root.render(
     <Route path='/Apprentissage' element={<Apprentissage/>} />
     <Route path='/Like' element={< Like />} />
     <Route path='/Cart' element={<Cart />} />
+    <Route path='/Angularcourse' element={<Angularcourse />} />
+    <Route path='/Frontcourse' element={<Frontcourse />} />
+    <Route path='/Reactcourse' element={<Reactcourse />} />
     <Route
       path='/account'
       element={ <Account />  }
