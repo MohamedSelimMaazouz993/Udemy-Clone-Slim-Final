@@ -1,6 +1,9 @@
 .App {
-  text-align: center;
-}
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;}
 
 .App-logo {
   height: 40vmin;
@@ -162,16 +165,67 @@ div.right-navbar2.navbar-nav {
 }
 
 div.left2{
-  margin-top: -1%;
-  margin-left: 3%;
-  margin-right: 0%;
-  margin-bottom: 2%;
-  width: 50%;
-  
-  
-  
+  width: 100vw;
 }
 
+div.leftdecription{
+  margin-top: -1%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1%;
+  margin-bottom: -4%; }
+
+div.rightdescription{
+  display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin-left: 120%;
+    padding-right: 0%;
+    margin-top: -23%;
+  }
+
+  .btn-primary {
+    --bs-btn-color: var(--bs-blue);
+    --bs-btn-bg: var(--bs-white);
+  }
+  
+  div.row {
+    margin-top: -2%;
+    margin-right: -31%;
+}
+
+.btn-lg {
+  --bs-btn-padding-y: 0.5rem;
+  --bs-btn-padding-x: 7rem;
+  --bs-btn-font-size: 1.25rem;
+  --bs-btn-border-radius: 0.5rem;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+div.avatar-description{
+  margin-top: -4%;
+  margin-right: 0%;
+  margin-left: 5%;
+}
+
+div.formateur-description{
+  margin-top: -3%;
+  margin-left: 1%;
+}
+
+div.enchiffre {
+  margin-top: 1px;
+    margin-bottom: 3.5rem;
+    font-weight: 500;
+    line-height: 0.2;
+    color: var(--bs-heading-color);
+}
+ 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
