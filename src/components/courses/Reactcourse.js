@@ -1,25 +1,37 @@
 import React from 'react'
 import Footer from '../Footer'
 import Naavbar from '../signin/components/Naavbar'
-import { DefaultPlayer as Video } from 'react-html5video';
-import 'react-html5video/dist/styles.css';
-import Reactt from './videos/Reactt.mp4'
+import ReactPlayer from 'react-player'
+
 
 function Reactcourse() {
   return (
     <>
     <Naavbar/>
-    <div className='left2'>
    <h2> React Crash Course 2022</h2>
-   <Video autoPlay loop
-   onCanPlayThrough={()=>
-    {  console.log('video played') }
-  }
-   > 
-    <source src={Reactt} type="video/webm" />
-
-   </Video>
-   </div>
+   <div className='player-wrapper'>
+   <ReactPlayer
+          className='react-player'
+          url={[
+            'https://www.youtube.com/watch?v=QFaFIcGhPoM',
+            'https://www.youtube.com/watch?v=9hb_0TZ_MVI',
+            'https://www.youtube.com/watch?v=9VIiLJL0H4Y',
+            'https://www.youtube.com/watch?v=m7OWXtbiXX8'
+          ]}
+          controls
+          config={{
+            youtube: {
+              playerVars: { showinfo: 1 }
+            },
+            facebook: {
+              appId: '12345'
+            }
+          }}
+          width='90%'
+          height='100%'
+        />
+      </div>
+   
    <hr />
    <h4> À propos de ce cours </h4>
    <div> React en profondeur à partir de zéro. Apprends Reactjs, Redux, React Router 4, Authentification, BDD et bien plus ! </div>

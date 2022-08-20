@@ -1,25 +1,34 @@
 import React from 'react'
 import Footer from '../Footer'
 import Naavbar from '../signin/components/Naavbar'
-import { DefaultPlayer as Video } from 'react-html5video';
-import 'react-html5video/dist/styles.css';
-import angular from './videos/Angular.mp4'
+import ReactPlayer from 'react-player'
 
 function Angularcourse() {
   return (
     <>
     <Naavbar/>
-    <div className='left2'>
    <h2> Angular Crash Course 2022</h2>
-   <Video autoPlay loop
-   onCanPlayThrough={()=>
-    {  console.log('video played') }
-  }
-   > 
-    <source src={angular} type="video/webm" />
-
-   </Video>
-   </div>
+   <div className='player-wrapper'>
+   <ReactPlayer
+          className='react-player'
+          url={[
+              'https://www.youtube.com/watch?v=CEZMeHr-6wI',
+              'https://www.youtube.com/watch?v=hQAQmwMiyAw',
+              'https://www.youtube.com/watch?v=IHJVKJ-YeNI'
+          ]}
+          controls
+          config={{
+            youtube: {
+              playerVars: { showinfo: 1 }
+            },
+            facebook: {
+              appId: '12345'
+            }
+          }}
+          width='90%'
+          height='100%'
+        />
+      </div>
     
    <hr />
    <h4> À propos de ce cours </h4>
