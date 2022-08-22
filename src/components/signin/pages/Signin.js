@@ -17,11 +17,14 @@ const Signin = () => {
     }
   };
 
+
+
   useEffect(() => {
     if (user != null) {
       navigate('/account');
+
     }
-  }, [user]);
+  }, [user , navigate]);
 
   return (
     <div>
