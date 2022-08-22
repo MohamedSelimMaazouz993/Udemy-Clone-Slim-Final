@@ -163,7 +163,7 @@ div.right-navbar2.navbar-nav {
 .react-player {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 90px;
 }
 
 .btn-secondary {

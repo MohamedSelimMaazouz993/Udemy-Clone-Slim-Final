@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { GoogleButton } from 'react-google-button';
 import { UserAuth } from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
 import Footer from '../../Footer';
 import Naavbar from '../components/Naavbar';
 
 const Signin = () => {
-  const { googleSignIn } = UserAuth();
-  
+  const { googleSignIn, user } = UserAuth();
+  const navigate = useNavigate();
 
   const handleGoogleSignIn = async () => {
     try {
@@ -16,7 +17,12 @@ const Signin = () => {
     }
   };
 
-  
+  useEffect(() => {
+    if (user != null) {
+      navigate('/account');
+    }
+  }, [user]);
+
   return (
     <div>
     <Naavbar/>    
