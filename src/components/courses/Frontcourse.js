@@ -12,8 +12,8 @@ function Frontcourse() {
         <ReactPlayer
           className='react-player'
           url={[
-            'https://www.youtube.com/watch?v=Cms_zL6Q-XE',
-            'https://www.youtube.com/watch?v=Q0prVO3DCtU'
+            'http://www.youtube.com/watch?v=Cms_zL6Q-XE',
+            'http://www.youtube.com/watch?v=Q0prVO3DCtU'
           ]}
           controls
           config={{

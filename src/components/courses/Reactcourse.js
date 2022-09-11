@@ -13,10 +13,10 @@ function Reactcourse() {
    <ReactPlayer
           className='react-player'
           url={[
-            'https://www.youtube.com/watch?v=QFaFIcGhPoM',
-            'https://www.youtube.com/watch?v=9hb_0TZ_MVI',
-            'https://www.youtube.com/watch?v=9VIiLJL0H4Y',
-            'https://www.youtube.com/watch?v=m7OWXtbiXX8'
+            'http://www.youtube.com/watch?v=QFaFIcGhPoM',
+            'http://www.youtube.com/watch?v=9hb_0TZ_MVI',
+            'http://www.youtube.com/watch?v=9VIiLJL0H4Y',
+            'http://www.youtube.com/watch?v=m7OWXtbiXX8'
           ]}
           controls
           config={{

@@ -12,9 +12,9 @@ function Angularcourse() {
    <ReactPlayer
           className='react-player'
           url={[
-              'https://www.youtube.com/watch?v=CEZMeHr-6wI',
-              'https://www.youtube.com/watch?v=hQAQmwMiyAw',
-              'https://www.youtube.com/watch?v=IHJVKJ-YeNI'
+              'http://www.youtube.com/watch?v=CEZMeHr-6wI',
+              'http://www.youtube.com/watch?v=hQAQmwMiyAw',
+              'http://www.youtube.com/watch?v=IHJVKJ-YeNI'
           ]}
           controls
           config={{
