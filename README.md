@@ -24,4 +24,4 @@ Running this command will install the dependecies needed for this project
 
 ![5](https://user-images.githubusercontent.com/71633887/185792478-df2d12f7-5a18-4dff-9a82-b19f7a436278.jpg)
 
-### Demo : 
+### Demo : https://6303d85d295fbe15c620c363--rainbow-toffee-b7b7ad.netlify.app/
