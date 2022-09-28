@@ -38,11 +38,14 @@
   margin-top: 3%;
 }
 .form-control  {
-  padding: 0.375rem 0.75rem;
+  padding-top: 0%;
+  padding-right: 0%;
   margin-top: 0%;
-  width: 100%;
   margin-right: 0%;
+  width: 100%;
 }
+
+
 
 div.progress-bar {
   width: 25% ;
@@ -78,7 +81,7 @@ div.left{
   vertical-align: middle;
   margin-left: 3%;
 }
-div.right{
+div.right2{
   display:inline-block;
   vertical-align: middle;
   width: 30%;

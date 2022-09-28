@@ -1,6 +1,8 @@
 import React from 'react'
 import Footer from '../Footer';
 import Header from '../Header';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
  function UdemyB() {
   return (<>
@@ -39,63 +41,33 @@ import Header from '../Header';
       </div>  
 
 
-<div className='right'>
- <form class="needs-validation" novalidate>
-  <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationTooltip01">First name</label>
-      <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required/>
-      <div class="valid-tooltip">
-        Looks good!
-      </div>
-    </div>
-    <div class="col-md-4 mb-3">
-      <label for="validationTooltip02">Last name</label>
-      <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required/>
-      <div class="valid-tooltip">
-        Looks good!
-      </div>
-    </div>
-    <div class="col-md-4 mb-3">
-      <label for="validationTooltipUsername">Username</label>
-      <div class="input-group">
-        <div class="input-group-prepend">
-          
-        </div>
-        <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required/>
-        <div class="invalid-tooltip">
-          Please choose a unique and valid username.
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="col-md-6 mb-3">
-      <label for="validationTooltip03">City</label>
-      <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required/>
-      <div class="invalid-tooltip">
-        Please provide a valid city.
-      </div>
-    </div>
-    <div class="col-md-3 mb-3">
-      <label for="validationTooltip04">State</label>
-      <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required/>
-      <div class="invalid-tooltip">
-        Please provide a valid state.
-      </div>
-    </div>
-    <div class="col-md-3 mb-3">
-      <label for="validationTooltip05">Zip</label>
-      <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required/>
-      <div class="invalid-tooltip">
-        Please provide a valid zip.
-      </div>
-    </div>
-  </div>
-  <button class="btn btn-primary" type="submit">Submit form</button>
- </form>
-</div>  
+<div className='right2'>
 
+<Form>
+      <Form.Group className="mb-3" controlId="formBasicName">
+        <Form.Label>First Name</Form.Label>
+        <Form.Control type="name" placeholder="Enter Your First Name" />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasiclastname">
+        <Form.Label>Last Name</Form.Label>
+        <Form.Control type="name" placeholder="Enter Your Last Name" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasiccity">
+        <Form.Label>City</Form.Label>
+        <Form.Control type="name" placeholder="Enter Your City Name" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicZipcode">
+        <Form.Label>Zip Code</Form.Label>
+        <Form.Control type="name" placeholder="Enter Your Zip Code" />
+      </Form.Group>
+
+      
+      <Button variant="primary" type="submit">
+        Submit
+      </Button>
+    </Form>
+</div>
 </div>
 
 <Footer/>
