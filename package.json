@@ -1,6 +1,6 @@
 {
-  "name": "nginx",
-  "version": "1.0.0",
+  "name": "boostrap",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -25,12 +25,7 @@
     "react-player": "^2.10.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4",
-    "dotenv": "^8.2.0",
-    "ejs": "^3.1.5",
-    "express": "^4.17.1",
-    "ioredis": "^4.19.4",
-    "mongoose": "^5.11.12"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
